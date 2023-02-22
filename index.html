@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Feedback</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>
+				<span class="yellow">Welcome to Our Site!</span>
+			</h1>
+			<h2>Give Us Your Feedback!</h2>
+			<div  class="container ">
+				<form id = "main" name="main" class="main-form" action="#">
+					<div class="main-form__column">
+						<div class="main-form__item">
+							<label for="input_1" class="main-form__label">Call your Diamond</label>
+							<input  value="" id="input_1" type="text" name="nameInput" class="main-form__input" placeholder="Input something..." autocomplete="off">
+						</div>
+						<div class="main-form__item">
+							<label for="input_2" class="main-form__label">Leave your comment</label>
+							<textarea  id="input_2" type="text" name="nameTextarea" class="main-form__textarea" placeholder="Input something..." autocomplete="off"></textarea>
+						</div>
+						<div class="main-form__item">
+							<label for="date" class="main-form__label">Start data</label>
+							<input  id="date" type="datetime-local" name="inputDate">
+						</div>
+					</div>
+					<div class="main-form__column">
+						<div class="main-form__item">
+							<label class="main-form__label">Rate Us  </label>
+							<div class="radio">
+							<div class="main-form__radio">
+								<input  type="radio" name="nameRadio" class="main-form__radio" id="radio_1">
+								<label for="radio_1" class="main-form__inline-label"></label>
+							</div>
+							<div class="main-form__radio">
+								<input type="radio" name="nameRadio" class="main-form__radio" id="radio_2">
+								<label for="radio_2" class="main-form__inline-label"></label>
+							</div>
+							<div class="main-form__radio">
+								<input  type="radio" name="nameRadio" class="main-form__radio" id="radio_3">
+								<label for="radio_3" class="main-form__inline-label"></label>
+							</div>
+							<div class="main-form__radio">
+								<input  type="radio" name="nameRadio" class="main-form__radio" id="radio_4">
+								<label for="radio_4" class="main-form__inline-label"></label>
+							</div>
+							<div class="main-form__radio">
+								<input checked type="radio" name="nameRadio" class="main-form__radio" id="radio_5">
+								<label for="radio_5" class="main-form__inline-label"></label>
+							</div>
+							</div>
+						</div>
+						<div class="main-form__item">
+							<label for="file_1" class="main-form__label">Upload your image</label>
+							<input id="file_1" name="nameFile" type="file">
+						</div>
+						<div class="main-form__item">
+							<label for="input_3" class="main-form__label">Your name</label>
+							<input  value="" id="input_3" type="text" name="nameInputOwner" class="main-form__input" placeholder="Input something..." autocomplete="off">
+						</div>
+						<div class="main-form__item">
+							<label for="select_1" class="main-form__label">Tell Us Your Age</label>
+							<select id="select_1" name="nameSelect" class="main-form__select">
+								<option value="1" selected>20</option>
+								<option value="2">30</option>
+								<option value="3">40</option>
+								<option value="4">50</option>
+								<option value="5">60</option>
+							</select>
+						</div>
+					</div>
+					<div class="main-form__column">
+						<div class="main-form__item">
+							<input type="checkbox" name="nameCheck" class="main-form__radio" id="check_1">
+							<label for="check_1" class="main-form__inline-label">I agree to the processing of my data</label>
+						</div>
+						<div id = "error" class="main-form__error"></div><br>
+						<button type="submit" class="main-form__button">Send Feedback</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
