@@ -15,7 +15,6 @@ function checkForm(event){
     event.preventDefault();
     var name = el.nameInput.value;
     var komment = el.nameTextarea.value;
-    var rate = el.nameRadio.value;
     var nameOwner = el.nameInputOwner.value;
     var age = el.nameSelect;
     var ageSelect = age.selectedIndex;
