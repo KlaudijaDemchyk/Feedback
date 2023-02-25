@@ -5,4 +5,5 @@
 // Якщо хоча б одне число ділить num без залишку, число є складеним.
 //Використання: викликаем функцию с аргументом у вигляді цілого додатнього числа
 //наприклад: console.log(SimpleNumer(10));
-[SimpleNumer(num))] (https://github.com/KlaudijaDemchyk/Feedback/blob/main/js/SimpleNumer.js)
+//[SimpleNumer(num))]
+//(https://github.com/KlaudijaDemchyk/Feedback/blob/main/js/SimpleNumer.js)
